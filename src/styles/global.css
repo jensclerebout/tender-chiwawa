@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+
+  font-family: "Lato", sans-serif;
+
+  background-color: #f8fafc;
+
+  color: #111827;
+}
+
+.app {
+  max-width: 1200px;
+
+  margin: 0 auto;
+
+  padding: 2rem;
+}
