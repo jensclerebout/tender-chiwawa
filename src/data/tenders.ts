@@ -31,4 +31,123 @@ export const tenders: Tender[] = [
 
     followed: false,
   },
+  {
+    id: '2',
+
+    title: 'Implementatie van een digitaal loketsysteem',
+
+    organization: 'Gemeente Mechelen',
+
+    description:
+      'De gemeente wenst een gebruiksvriendelijk digitaal loketsysteem aan te schaffen waarmee burgers online attesten kunnen aanvragen, afspraken kunnen maken en dossiers kunnen opvolgen.',
+
+    publicationDate: '12-05-2026',
+
+    deadline: '15-06-2026 09:00',
+
+    region: 'BE212 - Arr. Mechelen',
+
+    cpv: {
+      code: '72222300',
+      description: 'Ontwikkeling van informatietechnologiesoftware',
+    },
+
+    keywords: ['software', 'digitaal loket'],
+
+    profile: 'CPV & zoektermen NL',
+
+    labels: [],
+
+    followed: false,
+  },
+
+  {
+    id: '3',
+
+    title: 'Aankoop en onderhoud van een CRM-platform',
+
+    organization: 'Provincie Antwerpen',
+
+    description:
+      'De provincie zoekt een CRM-oplossing voor het centraliseren van contacten, opvolgen van dossiers en automatiseren van communicatieprocessen.',
+
+    publicationDate: '18-05-2026',
+
+    deadline: '20-06-2026 11:00',
+
+    region: 'BE211 - Arr. Antwerpen',
+
+    cpv: {
+      code: '72212517',
+      description: 'Ontwikkeling van CRM-software',
+    },
+
+    keywords: ['crm', 'software'],
+
+    profile: 'CPV & zoektermen NL',
+
+    labels: [],
+
+    followed: true,
+  },
+
+  {
+    id: '4',
+
+    title: 'Cloudoplossing voor documentbeheer',
+
+    organization: 'Stad Gent',
+
+    description:
+      'De stad wenst een cloudgebaseerde oplossing voor documentbeheer en archivering met aandacht voor beveiliging, versiebeheer en samenwerking.',
+
+    publicationDate: '22-05-2026',
+
+    deadline: '25-06-2026 14:00',
+
+    region: 'BE234 - Arr. Gent',
+
+    cpv: {
+      code: '72512000',
+      description: 'Documentbeheer- en archiveringsdiensten',
+    },
+
+    keywords: ['cloud', 'documentbeheer'],
+
+    profile: 'CPV & zoektermen NL',
+
+    labels: ['cloud'],
+
+    followed: false,
+  },
+
+  {
+    id: '5',
+
+    title: 'Levering van een HR-managementsysteem',
+
+    organization: 'UZ Leuven',
+
+    description:
+      'Het ziekenhuis zoekt een geïntegreerd HR-platform voor personeelsbeheer, verlofaanvragen, evaluaties en rapportering.',
+
+    publicationDate: '28-05-2026',
+
+    deadline: '30-06-2026 10:00',
+
+    region: 'BE242 - Arr. Leuven',
+
+    cpv: {
+      code: '72212450',
+      description: 'Ontwikkeling van HR-software',
+    },
+
+    keywords: ['hr', 'software'],
+
+    profile: 'CPV & zoektermen NL',
+
+    labels: ['hr'],
+
+    followed: true,
+  },
 ];
