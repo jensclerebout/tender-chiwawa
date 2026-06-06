@@ -1,7 +1,11 @@
 import TenderCard from './TenderCard';
-import { tenders } from '../data/tenders';
+import type { Tender } from '../types/Tender';
 
-function TenderList() {
+type TenderListProps = {
+  tenders: Tender[];
+};
+
+function TenderList({ tenders }: TenderListProps) {
   return (
     <>
       {tenders.map((tender) => (
