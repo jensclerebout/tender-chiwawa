@@ -15,6 +15,12 @@
   transition: all 0.2s ease;
 }
 
+.cardLink {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
 .card:hover {
   border-color: #2563eb;
 
